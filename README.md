@@ -106,7 +106,7 @@ Transpargo/
 │
 ├── .gitignore               # Git ignore rules
 ├── README.md                # Project documentation
-
+```
 ## Integration & Communication
 
 The frontend and backend communicate via well-defined REST APIs supporting:
