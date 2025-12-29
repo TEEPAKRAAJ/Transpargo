@@ -16,7 +16,6 @@ Transpargo is a comprehensive logistics platform that simplifies international s
 
 The platform serves:
 - Exporters
-- Importers
 - Shipping agencies
 - Administrators
 
@@ -44,6 +43,9 @@ by providing a structured, reliable, and intuitive digital interface backed by s
 - Intelligent assistance for operational queries  
 - Guidance on compliance, shipment steps, and risk factors  
 
+### Dangerous Goods Compliance & Visualization
+- Interactive 3D dangerous goods packing visualizer that demonstrates UN-compliant packaging layers and handling requirements for hazardous cargo.
+- Automated generation of hazard labels and handling labels in accordance with UN/IATA dangerous goods guidelines, reducing manual errors and improving regulatory compliance.
 ---
 
 ## Role-Based Access & Security
@@ -85,14 +87,17 @@ Transpargo is built with role-based access control (RBAC) to ensure users see on
 ```text
 Transpargo/
 │
-├── Frontend/                # Frontend application (UI, routing, dashboards)
+├── Frontend/               
 │   ├── src/
 │   ├── public/
+│   ├── eslint.config.js
+│   ├── index.html
 │   ├── package.json
+│   ├── vite.config.js
 │   └── README.md
 │
-├── Backend/                 # Backend services (APIs, auth, business logic)
-│   ├── Transpargo/          # ASP.NET Core project
+├── Backend/                
+│   ├── Transpargo/          
 │   │   ├── Controllers/
 │   │   ├── Services/
 │   │   ├── Models/
@@ -102,7 +107,7 @@ Transpargo/
 │   │   ├── Program.cs
 │   │   └── Transpargo.csproj
 │   │
-│   └── Transpargo.sln       # Solution file
+│   └── Transpargo.sln       
 │
 ├── .gitignore               # Git ignore rules
 ├── README.md                # Project documentation
