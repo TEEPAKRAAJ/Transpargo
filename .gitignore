@@ -1,0 +1,15 @@
+# ================= BACKEND =================
+Backend/**/bin/
+Backend/**/obj/
+Backend/**/appsettings.Development.json
+Backend/**/appsettings.*.json
+
+# ================= FRONTEND =================
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+
+# ================= COMMON ==================
+.vscode/
+*.zip
+*.deb
