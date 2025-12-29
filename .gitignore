@@ -2,6 +2,7 @@
 Backend/**/bin/
 Backend/**/obj/
 Backend/**/appsettings.Development.json
+Backend/**/appsettings.json
 Backend/**/appsettings.*.json
 
 # ================= FRONTEND =================
